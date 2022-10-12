@@ -1,9 +1,9 @@
-import Komponent from './componen/index';
+import Form from './form/index';
 
 function App() {
   return (
     <div className="App">
-      <Komponent />
+      <Form />
     </div>
   );
 }
