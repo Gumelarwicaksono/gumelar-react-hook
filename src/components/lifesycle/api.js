@@ -1,1 +1,1 @@
-export const api = 'https://newsapi.org/v2/top-headlines?country=id&apiKey=957ee72b419840d9a9b1e72f6f9f7cd1';
+export const api = 'https://newsapi.org/v2/top-headlines?country=id&apiKey=4288b2ebb6434e2d8d796ce26107addc';
