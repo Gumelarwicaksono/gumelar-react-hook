@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+/src/lifesycle
+/src/form
+
 
 # testing
 /coverage

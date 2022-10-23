@@ -1,9 +1,9 @@
-import Form from './form/index';
+import Lifesycle from './components/index';
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Lifesycle />
     </div>
   );
 }
