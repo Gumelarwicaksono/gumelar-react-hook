@@ -1,17 +1,29 @@
-import React, { Component } from 'react';
 import Navbar from './nav';
-import Life from './lifesycle/index';
+import Hooks from './hooks/index';
 import { Container } from 'react-bootstrap';
 
-export default class index extends Component {
-  render() {
-    return (
+export default function index() {
+  return (
+    <div>
       <div>
         <Navbar />
         <Container className="mt-3">
-          <Life />
+          <Hooks />
         </Container>
       </div>
-    );
-  }
+    </div>
+  );
 }
+
+// export default class index extends Component {
+//   render() {
+//     return (
+//       <div>
+//         <Navbar />
+//         <Container className="mt-3">
+//           <Hooks />
+//         </Container>
+//       </div>
+//     );
+//   }
+// }
